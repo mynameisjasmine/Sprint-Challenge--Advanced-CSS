@@ -203,7 +203,6 @@ footer {
 }
 .home {
   width: 100%;
-  border: 3px solid red;
   /*img {
   width: 100%;
   height: auto;
@@ -260,7 +259,6 @@ footer {
   width: 78%;
   border-radius: 20px;
   height: 100%;
-  border: 3px solid red;
 }
 @media (max-width: 500px) {
   .home .space-images img {
