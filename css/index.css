@@ -1,6 +1,9 @@
 .border {
   border: 3px solid red;
 }
+.width {
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -306,7 +309,12 @@ footer {
   width: 50%;
 }
 .home button {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
+  border-radius: 5px;
+  background-color: #02022b;
+  color: white;
+  width: 105px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .home footer {
   margin-left: 50px;
