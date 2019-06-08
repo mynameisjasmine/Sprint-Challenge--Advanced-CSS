@@ -2,7 +2,16 @@
 
 .home {
   width: 100%;
-  //.border();
+  .border();
+
+    @media @phone {
+      margin-left: 1.2rem;
+      margin-right: 3.5rem;
+      .width();
+    }
+  
+
+
 
   .intro {
 //.border();
@@ -10,6 +19,13 @@
         .header-img {
           //.border();
           .width();
+          border-radius: 5px;
+             
+          @media @phone {
+            //margin-left: .5rem;
+            //margin-right: .2rem;
+            width: 100%;
+          }
         }
 
         h2 {
@@ -32,6 +48,8 @@
           /*font-size: 1.25rem;
           margin-left: 11px;
           */
+
+          
         }
 
   
@@ -46,6 +64,8 @@
   flex-direction: row;
   width: 50%;
   //.border();
+  
+  
 
         // Middle images container
           
@@ -59,17 +79,30 @@
             width: 78%;
             border-radius: 20px;
             height: 100%;
-            //.border();
+            .border();
+
+                  @media @phone {
+                    width: 100%;
+                    position: relative;
+                    left: 80px;
+                  }
+
+
+                    
           }
 
           
-          /*.sky {
-            display: none;
+          .sky {
+              @media @phone {
+                display: none;
+              }
           }
 
           .launch {
-            display: none;
-          }*/
+            @media @phone {
+              display: none;
+            }
+        }
   
   }
 // // // //
@@ -108,18 +141,24 @@
   justify-content: space-between;
   //.border();
 
+     @media @phone {
+       line-height: 1px;
+       }
+
           
 
          .walk-img-div {
            width: 47%;
-           //.border();
+           .border();
            position: relative;
            left: 36rem;
            top: -30.5rem;
            border-radius: 20px;
            border: 1px lightgray;
            //margin-left: 4%;
+       
           }
+
         
   
         // Astronaut Image 
@@ -128,6 +167,8 @@
           //position: relative;
           //left: 12rem;
           //.border();
+
+              
          }
 
 
@@ -136,6 +177,8 @@
             //display: flex;
             //justify-content: space-between;
             //.border();
+
+                  
           }
 
            .wlk-blurb-btn {
@@ -143,10 +186,29 @@
               //.border();
           }
 
-            .wlk-blurb-2 {
-              width: 55%;
+            
+
+
+            .wlk-blurb-1 {
               //.border();
+
+                  @media @phone {
+                    width: 100%;
+                    }
             }
+         
+          
+          
+          
+          
+                .wlk-blurb-2 {
+                    width: 55%;
+                    //.border();
+
+                        @media @phone {
+                          width: 100%;
+                          }
+                  }
            
             
     }
@@ -190,21 +252,38 @@ p {
    color: white;
    width: 105px;
    padding: .5rem .5rem .5rem .5rem;
+
+            &:hover {
+              color: rgb(2, 2, 43);
+              background-color: white;
+            }
   }
 
  
   footer {
-  margin-left: 50px;
-  width: 88%;
-  height: 78px;
+  margin-left: 10px;
+  width: 98%;
+  height: 68px;
+  background-color: @wild-sand;
+  
   //
   //.border();
     
 
+       
+        @media @phone {
+          width: 97%;
+          }
+
         p {
           padding-top: 30px;
           padding-left: 30px;
-          //.border();  
+          //.border(); 
+          
+          
+              @media @phone {
+                padding-left: 5px;
+                }
         }
 }
 
