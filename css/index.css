@@ -170,7 +170,7 @@ p {
   display: flex;
   justify-content: center;
   margin-bottom: 1.5rem;
-  font-size: 30px;
+  font-size: 40px;
 }
 .nav-container .nav {
   display: flex;
@@ -180,6 +180,7 @@ p {
 }
 .nav-container .nav a {
   color: black;
+  font-size: 1.7rem;
 }
 .nav-container .nav .nav-link1 {
   margin-left: 8rem;
@@ -199,41 +200,52 @@ footer {
 }
 .home {
   width: 100%;
+  /*img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  .border();
+  } */
 }
 .home .intro .header-img {
   width: 100%;
 }
 .home .intro h2 {
   font-size: 32px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
   /*padding: 15px;
-      font-size: 27px;*/
+          font-size: 27px;*/
 }
 .home .intro p {
   font-size: 1.6rem;
   line-height: 1.4;
   padding: 0 15px;
+  width: 100%;
+  border: 3px solid red;
   /*font-size: 1.25rem;
-      margin-left: 11px;
-      //.border();*/
+          margin-left: 11px;
+          */
 }
 .home .space-images {
   /*flex-wrap: wrap;
-    flex-direction: column */
+  flex-direction: column */
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 50%;
   /*.sky {
-          display: none;
-        }
+            display: none;
+          }
 
-        .launch {
-          display: none;
-        }*/
+          .launch {
+            display: none;
+          }*/
 }
 .home .space-images img {
   /*.width: 100%;
-          margin-top: 20px;
-          margin-right: 60px;*/
+            margin-top: 20px;
+            margin-right: 60px;*/
   width: 28%;
   margin: 20px 2.5%;
   width: 78%;
@@ -246,7 +258,7 @@ footer {
 }
 .home .visit-planets h3 {
   /*font-size: 25px;
-      margin-top: 11px;*/
+          margin-top: 11px;*/
   font-size: 28px;
 }
 .home .visit-planets p {
@@ -259,32 +271,23 @@ footer {
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
-  justify-content: center;
-  border: 3px solid red;
-}
-.home .walk .walk-img {
-  width: 450px;
-  padding-right: 100px;
-  order: 1;
-}
-.home .walk .walk-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 100%;
+  justify-content: space-between;
   border: 3px solid red;
-}
-.home .walk .walk-text h3 {
-  font-size: 28px;
-  /*margin-bottom: 10px;
-        font-size: 25px;*/
-}
-.home .walk .walk-text p {
-  margin-bottom: 26px;
-}
-.home .walk .walk-text .wlk-blurb-1 {
-  display: flex;
 }
 .home .walk .walk-img-div {
   width: 100%;
+}
+.home .walk .walk-text {
+  width: 100%;
+}
+.home h3 {
+  font-size: 28px;
+  padding-bottom: 1.5rem;
+  /*margin-bottom: 10px;
+  font-size: 25px;*/
+}
+.home p {
+  margin-bottom: 26px;
+  width: 50%;
 }
