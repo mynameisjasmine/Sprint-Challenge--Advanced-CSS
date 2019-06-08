@@ -28,7 +28,7 @@
           line-height: 1.4;
           padding:0 15px;
           width: 100%;
-          .border();
+          //.border();
           /*font-size: 1.25rem;
           margin-left: 11px;
           */
@@ -55,7 +55,7 @@
             margin-top: 20px;
             margin-right: 60px;*/
             width: 28%;
-            margin: 20px 2.5%;
+            margin: 3px 2.5% 25px;
             width: 78%;
             border-radius: 20px;
             height: 100%;
@@ -88,8 +88,9 @@
 
         p {
           margin-top: 13px;
-          font-size: 1.25rem;
+          font-size: 1.6rem;
           margin-right: 2px;
+          width: 100%;
 
           //.border();
         }
@@ -100,24 +101,30 @@
 .walk {
   margin-top: 60px;
   border-top: 1px solid @main-border-color;
+  height: 400px;
   padding: 50px 60px;
   display: flex;
-  //flex-direction: row-reverse;
-  //flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
-  .border();
+  //.border();
 
           
 
          .walk-img-div {
-           width: 100%;
+           width: 47%;
+           //.border();
+           position: relative;
+           left: 36rem;
+           top: -30.5rem;
+           border-radius: 20px;
+           border: 1px lightgray;
            //margin-left: 4%;
           }
         
   
         // Astronaut Image 
           .walk-img {
+          border-radius: 20px;
           //position: relative;
           //left: 12rem;
           //.border();
@@ -131,7 +138,15 @@
             //.border();
           }
 
-        
+           .wlk-blurb-btn {
+              width: 100%;
+              //.border();
+          }
+
+            .wlk-blurb-2 {
+              width: 55%;
+              //.border();
+            }
            
             
     }
@@ -169,10 +184,23 @@ p {
     
   
   
-.btn {
-  
+  button {
+  font-size: 1.8rem;
   }
 
+footer {
+  margin-left: 50px;
+  width: 88%;
+  height: 78px;
+  //
+  //.border();
+    
 
+        p {
+          padding-top: 30px;
+          padding-left: 30px;
+          //.border();  
+        }
+}
 
 }// home

@@ -223,7 +223,6 @@ footer {
   line-height: 1.4;
   padding: 0 15px;
   width: 100%;
-  border: 3px solid red;
   /*font-size: 1.25rem;
           margin-left: 11px;
           */
@@ -247,7 +246,7 @@ footer {
             margin-top: 20px;
             margin-right: 60px;*/
   width: 28%;
-  margin: 20px 2.5%;
+  margin: 3px 2.5% 25px;
   width: 78%;
   border-radius: 20px;
   height: 100%;
@@ -263,23 +262,38 @@ footer {
 }
 .home .visit-planets p {
   margin-top: 13px;
-  font-size: 1.25rem;
+  font-size: 1.6rem;
   margin-right: 2px;
+  width: 100%;
 }
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
+  height: 400px;
   padding: 50px 60px;
   display: flex;
   width: 100%;
   justify-content: space-between;
-  border: 3px solid red;
 }
 .home .walk .walk-img-div {
-  width: 100%;
+  width: 47%;
+  position: relative;
+  left: 36rem;
+  top: -30.5rem;
+  border-radius: 20px;
+  border: 1px lightgray;
+}
+.home .walk .walk-img {
+  border-radius: 20px;
 }
 .home .walk .walk-text {
   width: 100%;
+}
+.home .walk .wlk-blurb-btn {
+  width: 100%;
+}
+.home .walk .wlk-blurb-2 {
+  width: 55%;
 }
 .home h3 {
   font-size: 28px;
@@ -290,4 +304,16 @@ footer {
 .home p {
   margin-bottom: 26px;
   width: 50%;
+}
+.home button {
+  font-size: 1.8rem;
+}
+.home footer {
+  margin-left: 50px;
+  width: 88%;
+  height: 78px;
+}
+.home footer p {
+  padding-top: 30px;
+  padding-left: 30px;
 }
