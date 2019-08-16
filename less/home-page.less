@@ -22,9 +22,8 @@
           border-radius: 5px;
              
           @media @phone {
-            //margin-left: .5rem;
-            //margin-right: .2rem;
-            width: 100%;
+            margin-left: .5rem;
+            width: 94%;
           }
         }
 
@@ -48,7 +47,11 @@
           /*font-size: 1.25rem;
           margin-left: 11px;
           */
-
+           @media @phone {
+            //  .border();
+            width: 97%;
+            
+           }
           
         }
 
@@ -63,8 +66,12 @@
   display: flex;
   flex-direction: row;
   width: 50%;
-  //.border();
+  // .border();
   
+  @media @phone {
+    // .border();
+    width: 90%;
+  }
   
 
         // Middle images container
@@ -77,14 +84,14 @@
             width: 28%;
             margin: 3px 2.5% 25px;
             width: 78%;
-            border-radius: 20px;
+            border-radius: @radius;
             height: 100%;
             //.border();
 
                   @media @phone {
                     width: 100%;
                     position: relative;
-                    left: 80px;
+                    left: 12px;
                   }
 
 
@@ -126,8 +133,26 @@
           .width();
 
           //.border();
+
+          @media @phone {
+            //  .border();
+            margin-top: 3px;
+            width: 95.5%;
+            // margin-left: -1rem;
+           }
+
+           
         }
   }
+
+  // .planet2 {
+  //   @media @phone {
+  //   //  .border();
+  //     position: relative;
+      
+  //     top: -1rem;
+  //   }
+  // }
   // // // //
   
   
@@ -143,19 +168,39 @@
 
      @media @phone {
        line-height: 1px;
+       width: 90%;
+       position: relative;
+       margin-top: -1rem;
+      // top: 20rem;
+      //  margin-: 13rem;
+        //  .border();
+       margin-left: 1.5rem;
+      
        }
 
           
 
          .walk-img-div {
            width: 47%;
-           .border();
+          //  .border();
            position: relative;
            left: 36rem;
            top: -30.5rem;
-           border-radius: 20px;
+           border-radius: @radius;
            border: 1px lightgray;
+           
            //margin-left: 4%;
+
+           @media @phone {
+            //  .border();
+            position: relative;
+            top: -66rem;
+            width: 126%;
+            padding-left: 1rem;
+            left: -6rem;
+            
+          
+          //  }
        
           }
 
@@ -163,55 +208,102 @@
   
         // Astronaut Image 
           .walk-img {
-          border-radius: 20px;
+          border-radius: @radius;
           //position: relative;
           //left: 12rem;
-          //.border();
-
+          // .border();
+          
+          @media @phone {
+            width: 100%;
+            // .border();
+            
+            
+            
+          }
               
          }
 
+        
 
           .walk-text {
             .width();
             //display: flex;
             //justify-content: space-between;
-            //.border();
-
+            // .border();
+         
+            
+             
                   
           }
 
            .wlk-blurb-btn {
              .width();
-              //.border();
+              //  .border();
+
+              @media @phone {
+                .border();
+                width: 120%;
+              }
           }
 
             
+           
 
-
-            .wlk-blurb-1 {
-              //.border();
-
-                  @media @phone {
-                    width: 100%;
-                    }
-            }
-         
+            
           
           
           
           
-                .wlk-blurb-2 {
-                    width: 55%;
-                    //.border();
-
-                        @media @phone {
-                          width: 100%;
-                          }
-                  }
+                
            
             
     }
+  }
+
+  .wlk-blurb-1 {
+    //.border();
+
+        @media @phone {
+          width: 100%;
+          //  .border();
+           margin-left: -4rem;
+           margin-top: 1rem;
+          
+          }
+  }
+
+  .wlk-blurb-2 {
+    width: 55%;
+    
+        @media @phone {
+          width: 110%;
+          margin-left: -4rem;
+          // .border();
+
+          }
+  }
+
+
+  .walk-blurb-div {
+    
+    @media @phone {
+      margin-top: 28rem;
+      //  .border();
+        
+      }
+
+      
+      
+   }
+
+   .walk-tag {
+    @media @phone {
+      //  .border();
+      margin-left:  -4rem;
+      
+      
+    }
+  }
       // // // //
   
   
@@ -257,6 +349,12 @@ p {
               color: rgb(2, 2, 43);
               background-color: white;
             }
+
+        @media @phone {
+          width: 120%;
+          padding: 2rem 3rem 2rem 3rem;
+          margin: 0 0 2rem -2.5rem;
+        }
   }
 
  
@@ -272,7 +370,12 @@ p {
 
        
         @media @phone {
-          width: 97%;
+          width: 95%;
+           position: relative;
+          top: 22rem;
+          margin-left: -.1rem;
+          margin-top: 4rem;
+          
           }
 
         p {
