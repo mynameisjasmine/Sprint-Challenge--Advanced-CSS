@@ -84,7 +84,7 @@
             width: 28%;
             margin: 3px 2.5% 25px;
             width: 78%;
-            border-radius: 20px;
+            border-radius: @radius;
             height: 100%;
             //.border();
 
@@ -186,7 +186,7 @@
            position: relative;
            left: 36rem;
            top: -30.5rem;
-           border-radius: 20px;
+           border-radius: @radius;
            border: 1px lightgray;
            
            //margin-left: 4%;
@@ -194,7 +194,7 @@
            @media @phone {
             //  .border();
             position: relative;
-            top: -79rem;
+            top: -66rem;
             width: 126%;
             padding-left: 1rem;
             left: -6rem;
@@ -208,13 +208,17 @@
   
         // Astronaut Image 
           .walk-img {
-          border-radius: 20px;
+          border-radius: @radius;
           //position: relative;
           //left: 12rem;
           // .border();
           
           @media @phone {
             width: 100%;
+            // .border();
+            
+            
+            
           }
               
          }
@@ -245,31 +249,40 @@
             
            
 
-            .wlk-blurb-1 {
-              //.border();
-
-                  @media @phone {
-                    width: 100%;
-                    
-                    }
-            }
-         
+            
           
           
           
           
-                .wlk-blurb-2 {
-                    width: 55%;
-                    // .border();
-
-                        @media @phone {
-                          width: 100%;
-                          }
-                  }
+                
            
             
     }
   }
+
+  .wlk-blurb-1 {
+    //.border();
+
+        @media @phone {
+          width: 100%;
+          //  .border();
+           margin-left: -4rem;
+           margin-top: 1rem;
+          
+          }
+  }
+
+  .wlk-blurb-2 {
+    width: 55%;
+    
+        @media @phone {
+          width: 110%;
+          margin-left: -4rem;
+          // .border();
+
+          }
+  }
+
 
   .walk-blurb-div {
     
@@ -336,6 +349,12 @@ p {
               color: rgb(2, 2, 43);
               background-color: white;
             }
+
+        @media @phone {
+          width: 120%;
+          padding: 2rem 3rem 2rem 3rem;
+          margin: 0 0 2rem -2.5rem;
+        }
   }
 
  
@@ -352,8 +371,10 @@ p {
        
         @media @phone {
           width: 95%;
-          position: relative;
-          top: 42rem;
+           position: relative;
+          top: 22rem;
+          margin-left: -.1rem;
+          margin-top: 4rem;
           
           }
 
