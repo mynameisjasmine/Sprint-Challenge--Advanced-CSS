@@ -344,10 +344,10 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img-div {
-    border: 3px solid red;
     position: relative;
-    top: -77rem;
-    width: 110%;
+    top: -79rem;
+    width: 126%;
+    padding-left: 1rem;
     left: -6rem;
   }
 }
@@ -387,7 +387,11 @@ footer {
 @media (max-width: 500px) {
   .home .walk-blurb-div {
     margin-top: 28rem;
-    border: 3px solid red;
+  }
+}
+@media (max-width: 500px) {
+  .home .walk-tag {
+    margin-left: -4rem;
   }
 }
 .home h3 {
@@ -420,7 +424,9 @@ footer {
 }
 @media (max-width: 500px) {
   .home footer {
-    width: 97%;
+    width: 95%;
+    position: relative;
+    top: 42rem;
   }
 }
 .home footer p {
